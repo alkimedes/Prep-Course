@@ -1,0 +1,23 @@
+1.
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+respuesta
+que es una variable:  es un espacio que asignamos en nuestro programa para usar en el transcurso del desarrollo
+existen varios formas de declarar una  variable:
+tenemos la var: que es la manera mas comun de declarar una variable ya que varia mucho tambien existe la const: que es la manera de declara una variable constante que es eso es algo que va a hacer constante y se usa la principio de tu codigo por que la vas a usa durante todo tu codigo o gran parte.
+
+que es un strings: es un tipo de dato que son grupo de texto  y se usa entre comillas todo lo que este por dentro de comillas sera leido como un strings.
+
+argumentos: es lo que va dentro de los parentesis de una funsion por lo general es una variable que se puede usar en  la misma funcion. 
+
+return: es un retorno del resultado que esperamos de la operacion que ejecutamos en la funcion.
+
+declaraciones if: se usa la declaracion if cuando esperamos una respuesta de una operacion por lo general el if va acompañadoo de un else que significa por ejemplo: en español seria (si(if) la suma de 2+2 es 4 hay se usa un (return) no retorna verdadero de lo contrario en negativo.
+el else hace el papel de la palabra de lo contrario.
+
+valores booleanos: son aquello que simplemente se esperan dos respuestas o son verdaderos o son falsos.
