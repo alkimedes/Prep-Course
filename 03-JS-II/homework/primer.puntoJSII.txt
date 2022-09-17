@@ -1,0 +1,70 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+* for
+* &&, ||, !
+
+respuesta:
+BUCLES FOR: los bucles son expresiones evaluadas una y otra vez hasta mostrar el resultado experado.
+ahora el bucle FOR su sintaxis es muy similar a la la sintaxis de IF pero un poco mas compleja, quiere decir que se escribe casi igual pero en los parentecis lleva 
+tres cosas diferente y se separa con puntosycoma. las tres cosas son:
+una declaracion de variable.
+una condicional que se acaba cuando llega a falso el proceso.
+y un incremento de la variable inicial.
+
+por ejemplo
+
+la sintaxis seria la siguiente:
+for (//declaracion de variable: let a=0; //condicional: a<10; //incremento de variable: a++ )
+//mostramos de la siguiente manera: console.log(a);
+
+el bucle empieza hasta que llega a=10 entonces la condicional leera 10<10 y eso es falso entonces hay parara la operacion.
+
+OPERADORES LOGICO
+
+&& 
+el operados 'Y' ('AND') se refleja en el codigo con los simbolos '&&' esta operacion lo que hace es que evalua dos expresiones y si una de ella es falsa mandara false.
+para que sea verdadera tienen que estar las dos expresiones verdadera.
+ ejemplo
+ caso verdadero
+
+ if (100>10//expresion verdadera && 10===10//expresion verdadera){
+    console.log('la declaracion es verdadera')
+ }
+
+caso falso
+if (20===5//expresion falsa && 10<20//expresion verdadera){
+    console.log('la declaracion es falsa')
+}
+basta que alla una sola expresion falsa para que de falsa.
+
+||
+"O" 'OR' este operador esta escrito en el codigo con dos barras verticales "||" es literal lo contrario de el operador && ya que determina verdadero con una sola expresion este verdadera.
+
+ caso verdadero
+
+ if (800>50//expresion verdadera || 50===50//expresion verdadera){
+    console.log('la declaracion es verdadera')
+ }
+
+caso verdadero
+if (20===5//expresion falsa || 10<20//expresion verdadera){
+    console.log('la declaracion es verdadero')
+    }
+
+caso falso
+if (20===5//expresion falsa || 10>20//expresion falso){
+    console.log('la declaracion es falsa')"es la unica manera que salga falso.
+
+!
+(NOT) esta escrito con un signo de exclamacion este operador lo que hace es que devuelve lo contrario de la expresion que estes formulando.
+
+ejemplo
+
+caso falso
+if (15===15 //expresion verdadera ){
+    console.log('la declaracion manda un false')
+    }
+
+caso verdadero
+if (20===5//expresion falsa){
+    console.log('la declaracion manda un true')
+    }
