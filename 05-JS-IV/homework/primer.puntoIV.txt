@@ -1,0 +1,58 @@
+Objetos
+Propiedades
+Métodos
+Bucle for…in
+
+
+objetos:
+los objetos tienen informacion de una sola cosa, los objetos su intacion es ussando llaves '{}'
+
+ejemplo 
+const nuevoObjeto = {};
+para ingresar propiedades 
+se usa key:value osea clave:valor
+a diferencia de matrizes que guardan por indices los objetos usan un consepto llamado pares de claves:valor
+donde key es el identificador y el value es el valor que queremos guardar, los objetos puedes tener muchos pares de clave valor y son separado por ','
+ejemplo
+const user ={
+    username:'alquimedes'
+    password:'alky.1997'
+    favoritecolor: 'blue'
+};
+
+propiedades;
+
+son aquello que metemos dentro de un objeto pueden ser muchos dentro de un objeto.
+
+Métodos:
+es una funcion asociada a un objeto por ejemplo 
+los metodos se llaman con un . y parentesis:
+ejemplo:
+const nuevo objeto ={
+    decirhola:funtion(){
+        console.log('hola mundo');
+    }
+}
+nuevoObjeto.decirhola();
+
+Bucle for…in
+Un bucle for...in solo itera sobre propiedades enumerables que no son símbolo. Los objetos creados a partir de constructores integrados como Array y Object han heredado propiedades no enumerables de Object.prototype y String.prototype, como el método indexOf() de String o el método toString() de Object.
+
+ejemplo:
+const usaurio = { 
+    username: 'alquimedes',
+    password: 'alky.1997',
+    favoritecolor: 'blue'
+ };
+
+for (const clave in usaurio) {
+  console.log(clave);
+  console.log(username[clave]);
+}
+//username
+//'alquimedes
+//password
+//'alky.1997'
+
+
+
