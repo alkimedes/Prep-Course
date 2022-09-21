@@ -1,0 +1,20 @@
+Array:
+
+array o arreglos son una matriz para coleccionar datos,
+construir una matriz es simple, declarando una variable y establecerla con '[]' luego podemos agragar contenedores separados por coma ','.
+ejemplo
+const nombredelaempresa =['autoadan', 'motorcicle', 'mundimotos'];
+
+existen varias propiedades como lo son .length, .push, .pop son los mas usados o primitivos.
+.length: lo que hace el .length es que te devuelve en numero la cantidad de elementos que hay dentro de un array.
+ejemplo:
+(nombredelaempresa.length); //3
+
+.pop: elimina el ultimo elemento de un array.
+ejemplo: 
+(nombredelaempresa.pop); // const nombredelaempresa =['autoadan', 'motorcicle']
+
+.push:
+añade uno o mas elementos al final del array 
+ejemplo:
+const empresa = nombredelaempresa.push('honda'); //const nombredelaempresa =['autoadan', 'motorcicle', 'mundimotos', 'honda'];
