@@ -1,0 +1,11 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+prototype
+Constructors (de Clases)
+
+prototype:
+todo objeto en javascript tiene su prototype todo lo que uses en javascript tiene prototype.
+los prototype son mecanismo mediante el cual heredan en javascript caracteriasticas entre si,  los objetos pueden tener un objeto prototipo, el cual actúa como un objeto plantilla que hereda métodos y propiedades.
+
+Constructors (de Clases)
+Las clases son una plantilla para crear objetos. Encapsulan datos con código para trabajar en esos datos.
+que quiere decir que las clases es una manera de declarar variables en grupo.
